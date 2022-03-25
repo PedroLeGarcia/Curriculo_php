@@ -14,13 +14,11 @@
 </head>
 <body>
 
-    <div class="container" id="conteudo">
+    <div class="container" id="conteudo"> <!--Div container está englobando o for-->
         <form action="curriculo.php" method="post">
-            <div class="menu">
+            <div class="col-2" id="menu">
                 <menu>
-                    <center>
                         <h1>Seu Currículo:</h1>
-                    </center>
                 </menu>
             </div>
             <div class="col-2">
@@ -38,9 +36,9 @@
                 <input type="number" name="cont" id="cont"> <br> <br>
                 Experiência Profissional:
                 <select name="exp" id="exp">
-                    <option value="Duvida">Novato</option>
-                    <option value="Reclamacao">Intermediário</option>
-                    <option value="Elogio">Experiente</option>
+                    <option value="Novato">Novato</option>
+                    <option value="Intermediario">Intermediário</option>
+                    <option value="Experiente">Experiente</option>
                 </select> <br> <br>
                 Objetivos: 
                 <textarea name="msg" id="obj" cols="30" rows="10"></textarea> <br> <br>
